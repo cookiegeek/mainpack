@@ -7,7 +7,7 @@ from aiogram.filters import Command
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from aiogram.exceptions import TelegramBadRequest
 
-API_TOKEN = 'BOT_TOKEN'
+API_TOKEN = '8962107038:AAHfMtrZHoz27RTtSvu3TqVto2ksoEmqPiY'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
