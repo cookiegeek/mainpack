@@ -239,9 +239,9 @@ async def admin_money_give_cmd(message: Message):
 async def minepack_bot_handler(message: Message):
     if random.randint(1, 100) <= 68:
         try:
-            await message.reply("ТЕСТ")
+            await message.reply("пошел нахуй⁓⁓")
         except Exception:
-            await message.answer("ТЕСТ")
+            await message.answer("пошел нахуй⁓⁓")
 
 
 @dp.message(Command("start"))
